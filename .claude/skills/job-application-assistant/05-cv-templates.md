@@ -111,12 +111,13 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Sales Engineering / Presales Leadership roles:** *[Used for: CrowdStrike_SalesEngineeringManager, ServiceNow_SolutionConsulting]*
+> Senior Sales Engineering leader with 20+ years of experience building and leading high-performing technical organisations across EMEA in complex enterprise infrastructure, cloud and security environments. Long-standing expertise across secure access, identity and access management, network security, micro-segmentation, and a holistic security approach. Recognized for building resilient regional leadership structures, a strong focus on talent development and career planning, and for aligning technical strategy with go-to-market execution across EMEA.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Regional Director / Executive Solution Advisory roles:** *[Used for: Coupa_RVPSolutionAdvisory, CheckPoint_RegionalDirector]*
+> Presales and Solutions Engineering leader with 20+ years building, scaling, and rebuilding EMEA-wide technical sales organizations at VMware, Broadcom, and Citrix. Proven track record leading second-line leaders and large distributed teams (up to 180 engineers, 20 leaders) through growth, market shifts and M&A integration, while consistently exceeding revenue targets and holding attrition below 5%. Skilled at positioning complex, multi-stakeholder platforms to senior and C-level buyers and at partnering tightly with Sales, Product and Customer Success.
+
+Note: source CVs vary between "20+ years" (counting from the 2005 Director promotion) and "25+ years" (counting from the 1996 career start). Both are defensible, not fabrications - pick one convention and apply it consistently going forward.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

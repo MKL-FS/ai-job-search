@@ -14,28 +14,61 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- These are populated by /setup from your actual experience. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+## STAR Candidates (Complete Manually)
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+Path A extracted these achievements from your documents but could not draft full STAR examples without your first-hand account of the situation/task details. Flesh out the S/T/A/R stub for each before relying on it in an interview.
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### VMware-by-Broadcom post-acquisition SE org rebuild
+**Source:** VMware reference letter, LinkedIn, all tailored CVs
+**What happened:** Built the newly-established EMEA Partner & Commercial Solution Engineering team from the ground up after the Broadcom acquisition, leading 30+ Partner SEs, and delivered 200% of the revenue target in the first fiscal year.
+**Why it matters:** Strong answer for "tell me about a time you led through change/uncertainty," "post-acquisition integration," or "building a team from scratch"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Attrition reduction via career development framework
+**Source:** LinkedIn, VMware reference letter
+**What happened:** Reduced team attrition to <5% via a career development framework that was ultimately adopted by 700+ SEs across EMEA.
+**Why it matters:** Strong answer for "how do you retain talent," "building a career framework," or "influencing beyond your direct team"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Introducing Design Thinking as a pipeline-generation method
+**Source:** LinkedIn
+**What happened:** Established Design Thinking as a pipeline-generation method within the VMware Sales organization, and developed custom customer workshops using Design Thinking methods.
+**Why it matters:** Strong answer for "how do you innovate within an established sales process" or "cross-functional influence on Sales"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Citrix DACH team growth (15 to 30+ engineers)
+**Source:** LinkedIn, Citrix reference letter
+**What happened:** Expanded the DACH Systems Engineering team from 15 to 30+ members while keeping attrition below 5% and delivering consistent annual revenue growth of >20%.
+**Why it matters:** Strong answer for "scaling a team while maintaining quality/culture" or "sustained multi-year growth delivery"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Launching the EMEA Knights partner-enablement program
+**Source:** LinkedIn
+**What happened:** Launched the EMEA Knights program, activating the strongest VMware consultants across the partner ecosystem.
+**Why it matters:** Strong answer for "partner/channel enablement" or "identifying and mobilizing top talent"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

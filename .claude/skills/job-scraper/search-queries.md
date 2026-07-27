@@ -10,66 +10,60 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (Markus is fully remote/international - LinkedIn is the main lever; no local job board configured yet):
+- **linkedin.com/jobs** - primary search surface, covered by the `linkedin-search` CLI; no city filter needed since scope is fully remote/international
+- No German/European board (StepStone, Xing, etc.) configured yet - run `/add-portal` if Markus wants one added later
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (past applications include CrowdStrike, ServiceNow, Cohesity, Check Point, Coupa)
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Location is intentionally omitted from most queries since the search scope is fully remote/international, not commute-bound.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Global Head of Solution Consulting / VP-level Presales Leadership
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match Markus's strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Global Head of Solution Consulting"
+site:linkedin.com/jobs "VP Solutions Engineering"
+site:linkedin.com/jobs "VP Sales Engineering"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Senior Director / Presales Leadership
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Adjacent seniority levels in the same functional lane.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Senior Director Sales Engineering"
+site:linkedin.com/jobs "Presales Leader"
+site:linkedin.com/jobs "Presales Leadership" remote
+```
+
+### Priority 3: Security & Identity Domain Presales
+
+Roles where the security/identity domain expertise is the primary draw.
+
+```
+site:linkedin.com/jobs "Solutions Engineering" "identity and access management" director OR VP
+site:linkedin.com/jobs "Sales Engineering" "Zero Trust" leader
+```
+
+### Priority 4: Interim / Advisory Engagements
+
+Broader net for interim executive and advisory work, matching current self-employed positioning.
+
+```
+site:linkedin.com/jobs "Interim" "Solutions Engineering" leadership
+site:linkedin.com/jobs "Presales" advisor OR consultant remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Scope is fully remote/international - no commute-distance filtering applies. Verify instead that:
+- The role is explicitly remote-friendly, or does not require relocation abroad (deal-breaker - see CLAUDE.md)
+- Frequent international travel requirements are flagged for discussion, not auto-rejected
 
 ## Date Filter
 

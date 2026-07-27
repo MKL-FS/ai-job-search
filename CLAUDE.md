@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Markus Klein
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Markus Klein, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,67 +13,70 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Markus Klein
+- **Location:** Freising, Germany (near Munich)
+- **Languages:** German (Native), English (Full Professional), French (Learning)
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Self-employed Presales Leadership Advisor & Interim Executive (since Jul 2025); actively targeting Global or EMEA Head of Solution Consulting / Presales Leadership or Interim Executive roles
+- **LinkedIn headline:** "International Presales & Solution Consulting Leader | Scaling High-Performance SE Teams | Driving Enterprise Revenue | GTM Strategy | Enterprise Software - Cybersecurity - SaaS - Cloud - AI"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **IT Business Engineer** (1993-1995) - Hartnack-Schule Offenbach
+- **Studies in Process Engineering** (1989-1992) - FH Frankfurt am Main
+- **Technical college entrance qualification, Mechanical Engineering** (1986-1987) - Ludwig-Geissler Schule, Hanau
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Presales Leadership Advisor & Interim Executive (Self-employed)** (Jul 2025 - Present) - Freising, Germany
+  - Advises technology companies on building and scaling high-performance Presales and Solution Consulting organisations
+  - Engagements: interim leadership, GTM strategy, presales team design, value-selling frameworks, coaching of SE managers
+- **Regional Executive Leader, Solutions Engineering EMEA** (Nov 2023 - Jun 30, 2025) - **VMware by Broadcom** (Munich, Germany)
+  - Built EMEA Partner & Commercial Solution Engineering team from the ground up, 30+ Partner SEs across EMEA
+  - Re-established the VMware by Broadcom channel in EMEA, delivering 200% of target in the first fiscal year post-acquisition
+- **Senior Director, Solutions Engineering Central Europe** (Sept 2014 - Oct/Nov 2023) - **VMware** (Munich, Germany)
+  - Grew direct organization from 60 to 110+ employees (20+ managers), plus dotted-line responsibility for 80 further specialists across EMEA (190+ total oversight); €1B+ annual revenue influence
+  - Reduced attrition to <5% via career development framework adopted by 700+ SEs across EMEA
+- **Director, Systems Engineering Central Europe** (Apr 2000 - Aug 2014) - **Citrix Systems** (Greater Munich)
+  - Expanded DACH SE team from 15 to 30+ members, attrition <5%, consistent annual revenue growth >20%
+  - See [01-candidate-profile.md](.claude/skills/job-application-assistant/01-candidate-profile.md) for the full 6-role history and per-role achievement bullets
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** EMEA Sales Engineering / Solutions Engineering leadership, second-line leadership and coaching, cross-functional leadership, executive stakeholder engagement
+- **Secondary:** Organisational scaling & post-acquisition rebuild, KPI governance, value-based selling & coaching, GTM strategy design, Design Thinking in Sales
+- **Domain:** Enterprise infrastructure & hybrid cloud, Identity & Access Management, Zero Trust & micro-segmentation, holistic security strategy, data protection, AI
+- **Software:** MS Office Inclusive. VBA Programming, Salesforce (leadership dashboards), VMware portfolio, Citrix portfolio
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Subject Matter Expert - Design Thinking** - completed 2022
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None found in source documents -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+<!-- None found in source documents -->
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from LinkedIn About + reference letters, not a formal assessment - see 02-behavioral-profile.md for full detail and caveats -->
+- **Strategic + operational combination** - designs proactive growth engines, then personally executes the build
+- **Fast, precise comprehension** - grasps complex situations immediately, decides calmly under pressure
+- **Strengths:** team integration (unites heterogeneous groups into cohesive teams), entrepreneurial spirit paired with disciplined execution, convincing public speaker
+- **Growth areas:** Balancing global consistency vs. regional autonomy — "I lean toward standardizing playbooks, and I've learned to build in enough local flexibility that regional teams don't feel like they're executing someone else's plan."; New domain ramp-up speed — if you're moving into more purely cybersecurity-native companies (CrowdStrike, Check Point) from infrastructure-heavy VMware/Citrix, "getting fully fluent in a new security domain fast" is a legitimate, honest growth area.
+- **Thrives in:** leading second-line through trusted managers; environments where Solutions/Presales is a strategic partner function to Sales, Product, and Customer Success, not a downstream service
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building strong, trusted teams and coaching technical talent into business leaders
+- Aligning Product, Sales, and Engineering; driving predictable enterprise outcomes
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Enterprise Software / Cybersecurity / SaaS / Cloud / AI
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Jobs outside EMEA
+- Minimum salary baseline: >€200,000
+
+### Location & Travel Flexibility
+- Open to partial relocation (e.g. a regional EMEA hub) for the right role
+- Extensive travel across EMEA is not an issue
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

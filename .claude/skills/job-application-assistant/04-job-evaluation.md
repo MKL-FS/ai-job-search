@@ -20,9 +20,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** EMEA-scale Solutions Engineering / Presales leadership (100+ people), security & identity domain positioning (IAM, Zero Trust, micro-segmentation), post-M&A organizational rebuild and change management, second-line leadership and coaching, GTM strategy design and execution
+**Moderate match areas:** *(to be filled in as calibration data accumulates - see note below)*
+**Weak match areas:** *(to be filled in as calibration data accumulates - see note below)*
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -51,10 +51,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Fully remote or international employer: PASS
+- Role based at an EMEA regional hub requiring partial relocation: PASS - Markus is open to partial relocation for the right role
+- Frequent or extensive EMEA travel: PASS - explicitly not an issue for Markus
+- Requires relocation outside EMEA entirely: FAIL (deal-breaker - "Jobs outside EMEA")
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -67,19 +67,21 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Global Head of Solution Consulting / Presales Leadership role, or
+- Interim Executive engagements helping organizations scale, transform, and accelerate growth
+- Elevating Solution Consulting/Presales into a recognized strategic differentiator, not a reactive support function (per LinkedIn "Currently focused on")
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building/scaling teams, coaching technical talent into business leaders, aligning Product/Sales/Engineering, driving predictable enterprise outcomes *(per LinkedIn "What I'm passionate about")*
+- Tasks that drain: *(not yet captured - ask Markus directly)*
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: *(not yet captured - ask Markus directly)*
+- **Flexibility**: *(not yet captured - ask Markus directly)*
+- **Professional development**: *(not yet captured - ask Markus directly)*
+
+**Note on calibration:** `documents/applications/` currently holds tailored CVs and one cover letter as flat files rather than `<company>_<role>/` folders with `job_posting.md` + `outcome.md`. Once `/outcome` starts recording real results (interview/rejection/no-response), calibration data can populate the moderate/weak match areas and the life-situation fields above.
 
 ### 6. Salary Benchmark (Optional)
 

@@ -379,6 +379,7 @@ def build_cover_letter(path):
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = p.add_run('Markus Klein')
     r.font.size = Pt(26)
+    r.font.color.rgb = ACCENT
 
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER

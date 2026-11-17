@@ -89,7 +89,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
 3. If good fit: create targeted CV (`cv/main_<company>_<role>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
 4. **Verify both documents** (see Verification Checklist below)
-5. Prepare interview talking points based on the role requirements and your strengths
+5. **Always also produce a `.docx` version of both documents** (`cv/main_<company>_<role>.docx`, `cover_letters/cover_<company>_<role>.docx`), generated as a **native Word document via `tools/build_docx.py`'s helpers** - never by converting the compiled PDF (LibreOffice's PDF import produces floating text frames and references the LaTeX template's fonts, which Word doesn't have). Write a small per-application script that imports the helpers (`add_section_heading`, `add_role_header`, `add_grouped_entries_table`, `add_bullets`, `add_hyperlink`) and supplies that application's content; see the confirmed house style documented at the top of `tools/build_docx.py` (role/company headline above a body-size name, borderless fixed-width tables for role headers - never a right tab stop, which wraps mid-word in real Word even when it looks fine in LibreOffice). Verify the generated `.docx` the same way as the PDF: render it to PDF with `soffice --headless --convert-to pdf` and visually inspect via the Read tool before presenting.
+6. Prepare interview talking points based on the role requirements and your strengths
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
